@@ -37,19 +37,12 @@ Algoritmos de regressão: Regressão Linear Múltipla, SVR, Árvores de Regress�
 - [03_arvores_regressao.ipynb](04_Regressao/03_arvores_regressao.ipynb)
 - [04_ensembles_regressao.ipynb](04_Regressao/04_ensembles_regressao.ipynb)
 
-#### **Módulo 5: Aprendizado Não-Supervisionado** (3 notebooks)
-Redução de dimensionalidade (PCA, LLE) e clustering (K-Means, DBSCAN, GMM) 
-- [01_introducao.ipynb](05_Unsupervised_Learning/01_introducao.ipynb)
-- [02_dimensionality_reduction.ipynb](05_Unsupervised_Learning/02_dimensionality_reduction.ipynb)
-- [03_clustering.ipynb](05_Unsupervised_Learning/03_clustering.ipynb)
-
 ### Tempo Estimado
 - Módulo 1: 1h15min - 1h50min
 - Módulo 2: 2h45min - 3h30min
 - Módulo 3: 4h45min - 6h30min
 - Módulo 4: 3h45min - 4h55min
-- Módulo 5: 2h30min - 3h20min
-- Total: 15h00min - 20h05min
+- Total: 12h30min - 16h45min
 
 ## Documentação dos Módulos
 
@@ -59,7 +52,6 @@ Para informações detalhadas sobre cada módulo, consulte:
 - [Módulo 2: Fundamentos de Machine Learning](02_Fundamentos_ML/README.md)
 - [Módulo 3: Classificação](03_Classificacao/README.md)
 - [Módulo 4: Regressão](04_Regressao/README.md)
-- [Módulo 5: Aprendizado Não-Supervisionado](05_Unsupervised_Learning/README.md)
 
 ---
 
@@ -67,8 +59,8 @@ Para informações detalhadas sobre cada módulo, consulte:
 
 ### Clonar ou Baixar
 ```bash
-git clone https://github.com/seu-usuario/IA-Fundamentals.git
-cd IA-Fundamentals
+git clone https://github.com/fea-dev-usp/Introducao-ao-Machine-Learning.git
+cd Introducao-ao-Machine-Learning 
 ```
 
 ### Instalar Dependências
@@ -101,17 +93,13 @@ pip install -r requirements.txt
 │   ├── 04_svm.ipynb
 │   ├── 05_arvores_classificacao.ipynb
 │   └── 06_ensemble_classificacao.ipynb
-├── 04_Regressao/
-│   ├── README.md
-│   ├── 01_regressao_linear_multipla.ipynb
-│   ├── 02_svr.ipynb
-│   ├── 03_arvores_regressao.ipynb
-│   └── 04_ensembles_regressao.ipynb
-└── 05_Unsupervised_Learning/
+└── 04_Regressao/
     ├── README.md
-    ├── 01_introducao.ipynb
-    ├── 02_dimensionality_reduction.ipynb
-    └── 03_clustering.ipynb
+    ├── 01_regressao_linear_multipla.ipynb
+    ├── 02_svr.ipynb
+    ├── 03_arvores_regressao.ipynb
+    └── 04_ensembles_regressao.ipynb
+
 
 ```
 
